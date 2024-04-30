@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"C:\Users\anuma\Documents\LambdaTest\sw-lambdatest-automation\vymo_application_test")
+sys.path.append(r"https://github.com/Anum-Anand/vyom-app-automation/tree/master/vymo_application_test")
 import add_contact as acs
 
 
