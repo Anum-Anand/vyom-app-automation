@@ -13,7 +13,6 @@ def check_cards_present_on_screen(desired_caps,command_executor):
         driver = webdriver.Remote(desired_capabilities=desired_caps, command_executor=command_executor)
         print(driver)
         cards = ["Friends", "Family", "Work", "Emergency", "Clients", "Vendors"]
-        # cards = ["Clients", "Vendors"]
         for card in cards: 
             msg = card , "is not present"
             card_value = ac.get_cards(driver,card)

@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 contacts_available_in_friends = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView[2]"
-# "//android.widget.TextView[@bounds='[506,459][575,619]']"
 
 friends = "//android.widget.TextView[@text='Friends']"
 family = "//android.widget.TextView[@text='Family']"
@@ -33,7 +32,6 @@ cancel = "CANCEL"
 error_message = "//android.widget.TextView[@text='First Name, Phone 1, and Type cannot be empty.']"
 ok_btn = "android:id/button1"
 second_element_in_contact = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup"
-# contact_saved = "//android.view.ViewGroup[@text='']"
 back_btn = "Back"
 cancel_btn_text = "//android.widget.TextView[@text='Cancelling will discard any changes.']"
 
